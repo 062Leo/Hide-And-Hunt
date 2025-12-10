@@ -15,6 +15,7 @@
     <li><a href="#steuerung">Steuerung</a></li>
     <li><a href="#die-map">Die Map</a></li>
     <li><a href="#entwicklungsstatus">Entwicklungsstatus</a></li>
+    <li><a href="#verwendete-assets">Verwendete Assets</a></li>
   </ol>
 </details>
 
@@ -50,6 +51,8 @@ Hide and Hunt ist inspiriert von klassischen Horror- und Prop-Hunt-Spielen. Das 
 - Prop-Mechanik: Dynamisches Versteckspiel durch die Verwandlung in Objekte.
 
 - Survival-Horror-Atmosphäre: Eine düstere, beklemmende Ästhetik.
+
+- Physikbasierte Prop-Bewegung: Die Fortbewegung als Prop erfolgt vollständig über Forces und Impulse der Unity-Physikengine, sodass sich Objekte durch physikalisches Rollen und Springen bewegen.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -141,11 +144,23 @@ Sie können Hide and Hunt auf zwei Arten testen, je nach gewünschtem Umfang und
 
 ## Entwicklungsstatus
 
-Hide and Hunt wurde Solo entwickelt. Das Projekt ist bewusst nur als Prototyp angelegt und nicht als vollständig fertiges, fehlerfreies Produkt.
-Der Umfang des Projekts war für eine einzelne Person im gegebenen Zeitraum recht groß, insbesondere da es meine erste Erfahrung mit Networking in Online-Multiplayer Spielen war.Entsprechend sind im aktuellen Stand noch einige Bugs und Unsauberkeiten im Spiel vorhanden.
+Hide and Hunt wurde Solo entwickelt. Das Projekt ist bewusst als spielbarer Prototyp angelegt, um die zentralen Spielmechaniken und technischen Grundlagen zu demonstrieren.
+Der Umfang des Projekts war für eine einzelne Person im gegebenen Zeitraum ambitioniert, insbesondere da es meine erste praktische Erfahrung mit Networking in Online-Multiplayer-Spielen war. Entsprechend können im aktuellen Stand noch kleinere Bugs und Verbesserungspotenziale auftreten.
+
+Während der Entwicklung waren vor allem Multiplayer und Networking sehr herausfordernd. Die korrekte Synchronisation von Spielmechaniken, Spieler-Interaktionen und der Wechsel zwischen First- und Third-Person-Perspektive haben viele Iterationen und Debugging-Runden erfordert, waren aber gleichzeitig der größte Lernfaktor des Projekts.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Verwendete Assets
+
+- Quick Outline – Chris Nolet  
+  - https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
+- Banana Man – Banana Yellow Games
+- POLYGON Farm – Synty
+- Low Poly Dungeons Lite
+- Low Poly Simple Medieval Props
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
