@@ -7,27 +7,14 @@
 <a id="readme-top"></a> <!-- back to top ziel -->
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Inhalt</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#prototyp-spielen">Prototyp Spielen</a></li>
+    <li><a href="#how-to-play">How to Play</a></li>
+    <li><a href="#steuerung">Steuerung</a></li>
+    <li><a href="#die-map">Die Map</a></li>
+    <li><a href="#entwicklungsstatus">Entwicklungsstatus</a></li>
   </ol>
 </details>
 
@@ -46,7 +33,7 @@ Hide and Hunt ist inspiriert von klassischen Horror- und Prop-Hunt-Spielen. Das 
 - Überlebende:
   - Verwandlung: Die Hauptmechanik ist die Fähigkeit, sich in nahezu jeden Gegenstand (Prop) in der Umgebung zu verwandeln. Dies dient zum Verstecken und zur Täuschung des Killers.
 
-  - Reparatur: Das Team muss fünf Generatoren reparieren.
+  - Reparatur: Das Team muss fünf Generatoren reparieren. Die Generatoren können von mehreren Survivors gleichzeitig repariert werden, wodurch sich die Reparaturgeschwindigkeit erhöht.
 
   - Flucht: Nach Abschluss der Reparaturen öffnet sich das Fluchttor.
 
@@ -66,6 +53,8 @@ Hide and Hunt ist inspiriert von klassischen Horror- und Prop-Hunt-Spielen. Das 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 
 
@@ -106,6 +95,55 @@ Sie können Hide and Hunt auf zwei Arten testen, je nach gewünschtem Umfang und
 5. Warte, bis der andere Spieler beigetreten ist  
    *oder* öffne das Spiel in zwei Fenstern und tritt deiner eigenen Lobby bei.  
 6. Klicke auf **Ready**.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Steuerung
+
+### Survivor
+
+- **WASD**: Bewegen
+- **Linke Maustaste**: In Objekt (Prop) verwandeln
+- **Rechte Maustaste**: Von Objekt wieder in Mensch verwandeln
+- **Als Mensch**
+  - **LShift**: Sprinten
+  - **Space**: Springen
+- **Als Prop**
+  - **LShift**: Aufrichten
+  - **Space**: Sprung / Doppelsprung
+- **E**: Interagieren (Generator reparieren, andere Spieler heilen, Escape Door öffnen)
+- Man kann Spieler heilen, die einen der folgenden Zustände haben: **Injured**, **Down**, **Death Chair**.
+
+### Killer
+
+- **WASD**: Laufen
+- **LShift**: Sprinten
+- **Space**: Springen
+- **Linke Maustaste**: Angreifen
+- **Rechte Maustaste**: Survivor aufheben, fallenlassen, in Death Chair setzen
+
+**Verwandeln**
+
+- Verwandeln ist nur als Survivor möglich.
+- Man kann sich nur in Objekte verwandeln, die eine rote Outline haben, wenn man sie anvisiert.
+
+## Die Map
+
+![Map-Übersicht](Assets/Bilder/Map.png)
+
+**Legende**
+
+- **Rote Linie**: Begrenzung der spielbaren Map
+- **Gelbe Kreuze**: Positionen der Generatoren
+- **Grüne Kreuze**: Positionen der Death Chairs
+- **Oranger Pfeil**: Position der Escape Door
+
+
+## Entwicklungsstatus
+
+Hide and Hunt wurde Solo entwickelt. Das Projekt ist bewusst nur als Prototyp angelegt und nicht als vollständig fertiges, fehlerfreies Produkt.
+Der Umfang des Projekts war für eine einzelne Person im gegebenen Zeitraum recht groß, insbesondere da es meine erste Erfahrung mit Networking in Online-Multiplayer Spielen war.Entsprechend sind im aktuellen Stand noch einige Bugs und Unsauberkeiten im Spiel vorhanden.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
